@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:phamkv.github.io:things:thing1",
+  "verificationMethod": [
+    {
+      "id": "did:web:phamkv.github.io:things:thing1#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:phamkv.github.io:things:thing1",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "XEgTJt-btsEXRQJ_3XT_2rRM7HBiIMd4fTa9_842FFQ",
+        "y": "Hz_L8JI7amh2brk9LsOVvaSa85VxubwctT1eYteEDVY",
+        "crv": "P-256",
+        "kid": "4_tomlaa62GF2H_DSVBXheUeGga92wSLHppSpn9fWSg",
+        "use": "sig",
+        "alg": "ES256"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:phamkv.github.io:things:thing1#owner"
+  ],
+  "assertionMethod": [
+    "did:web:phamkv.github.io:things:thing1#owner"
+  ]
+}
