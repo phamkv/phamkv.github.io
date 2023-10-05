@@ -11,12 +11,12 @@
       "controller": "did:web:phamkv.github.io:things:thing1",
       "publicKeyJwk": {
         "kty": "EC",
-        "x": "XEgTJt-btsEXRQJ_3XT_2rRM7HBiIMd4fTa9_842FFQ",
-        "y": "Hz_L8JI7amh2brk9LsOVvaSa85VxubwctT1eYteEDVY",
-        "crv": "P-256",
-        "kid": "4_tomlaa62GF2H_DSVBXheUeGga92wSLHppSpn9fWSg",
+        "x": "8XOj4Vmb0mSPvzEPwjjOykTVMh8Kw-2jjJGWxu7WpNU",
+        "y": "7Z6mkWTlr4pL8jsgFezeRZqatVEcVnJH1WrRRCHlN64",
+        "crv": "secp256k1",
+        "kid": "Gxh-VPsN6tOak9mKJZqEVrtFjNpwXLkHrDV9HF4xGng",
         "use": "sig",
-        "alg": "ES256"
+        "alg": "ES256K"
       }
     }
   ],
