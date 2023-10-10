@@ -43,9 +43,16 @@
   "assertionMethod": [
     "did:web:phamkv.github.io:things:thing1#owner"
   ],
-  "service": [{
+  "service": [
+    {
+      "id":"did:web:phamkv.github.io:things:thing1#didcomm",
+      "type": "DIDCommMessaging", 
+      "serviceEndpoint": "http://localhost:8080/counter?hash=d48a582886dd7d5ce803c0f34301a68c2e097fafc5becd3f8003781af0bca760"
+    },
+    {
     "id":"did:web:phamkv.github.io:things:thing1#service",
     "type": "ServiceEndpoint", 
     "serviceEndpoint": "http://localhost:8080/counter?hash=d48a582886dd7d5ce803c0f34301a68c2e097fafc5becd3f8003781af0bca760"
-  }]
+    }
+  ]
 }
