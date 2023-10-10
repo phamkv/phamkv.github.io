@@ -31,14 +31,16 @@
   ],
   "service": [
     {
-      "id":"did:web:phamkv.github.io:things:thing2#didcomm",
-      "type": "DIDCommMessaging", 
+      "id":"did:web:phamkv.github.io:things:thing2#service",
+      "type": "ServiceEndpoint", 
       "serviceEndpoint": "http://localhost:8080/counter?hash=d48a582886dd7d5ce803c0f34301a68c2e097fafc5becd3f8003781af0bca760"
     },
     {
-    "id":"did:web:phamkv.github.io:things:thing2#service",
-    "type": "ServiceEndpoint", 
-    "serviceEndpoint": "http://localhost:8080/counter?hash=d48a582886dd7d5ce803c0f34301a68c2e097fafc5becd3f8003781af0bca760"
+    "id":"did:web:phamkv.github.io:things:thing2#didcomm",
+    "type": "DIDCommMessaging", 
+    "serviceEndpoint": [{
+      "uri": "http://localhost:8080/thing2?hash=d48a582886dd7d5ce803c0f34301a68c2e097fafc5becd3f8003781af0bca760"
+    }]
     }
   ]
 }
