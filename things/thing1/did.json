@@ -18,8 +18,7 @@
         "y": "1t1LiboWV4KWHeJGIcPxgyxMLFjXGlp6Wga9pWjfD10",
         "crv": "P-256",
         "kid": "BKZMsG7e6iFF63o4DpKJgzEIQ9xosw96ll2L-N4yCDs",
-        "use": "sig",
-        "alg": "ES256"
+        "use": "sig"
       }
     },
     {
@@ -32,8 +31,7 @@
         "y": "7Z6mkWTlr4pL8jsgFezeRZqatVEcVnJH1WrRRCHlN64",
         "crv": "secp256k1",
         "kid": "Gxh-VPsN6tOak9mKJZqEVrtFjNpwXLkHrDV9HF4xGng",
-        "use": "sig",
-        "alg": "ES256K"
+        "use": "sig"
       }
     }
   ],
